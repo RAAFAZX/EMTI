@@ -1,0 +1,11 @@
+.container-form{
+    display: flex;
+    align-items: center;
+}
+.container-form img{
+    width: 50%;
+    margin-right: 20px;
+}
+.container-form form{
+    width: 50%;
+}

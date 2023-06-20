@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+
+    background: #fff;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.menu ul li{
+    display: inline;
+    
+}
+
+.menu > ul > li > a:link{
+    text-decoration: none;
+    color: black;
+    
+}
+
+a {
+    color: #000;
+}
+
+.menu > ul > li > a:hover{
+    text-decoration: none;
+    border-bottom: 2px solid green;
+}
+
+
+/*IMAGENS DO SITE*/
+#logo{
+    width: 200px;
+    
+}
+#banner-principal{
+    width: 100%;
+}
+.banner{
+    width: 250px;
+    
+}
+.assets{
+    width: 250px;
+    height: 250px;
+    border-radius: 25%;
+}
+
+/*SEÇÕES*/
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    text-align: center;
+}
+
+.conteudo{
+    text-align: center;
+}
+
+#video{
+    background-color: rgb(135, 200, 120.1) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border-bottom: 3px solid orange ;
+    padding: 22% ;
+}
+
+#video >.rafa>img{
+    height: 250px;
+
+}
+.rafa{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #fff;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+}
+footer{
+    text-decoration: none;
+    color: black;
+}
+rodape{
+    position: absolute;
+    bottom: 0%;
+}
+p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
